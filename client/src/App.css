@@ -1,0 +1,88 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+#Key{
+  min-height: 10px;
+  border-radius: 10%;
+  border-color: transparent;
+  background-color: #7daedd;
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 6px;
+  border-width: 0;
+  margin-right: 100px;
+  
+}
+ .element{
+  font-family:cursive;
+  min-height: 10px;
+  border-radius: 10%;
+  border-color: transparent;
+  background-color: #92928d;
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  margin-top: 10px;
+  margin-left: 120px;
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  /* background-color: #6fa4b4; */
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 200;
+ 
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 3px 0 0 #cac7cf;
+  box-shadow: inset 0 -3px 0 0 #A683E3;
+}
+
+::placeholder {
+  color: rgb(62, 171, 185);
+  opacity: 1;
+}
+
+.Heading {
+  background-color: #A683E3;
+  text-align: center;
+  display: flex;
+  justify-content:space-around;
+}
+
+.Searching{
+  display: flex;
+  justify-content: space-around;
+}
+.UserList{
+  width: 50%;
+  justify-content: center;
+  background-color: #adafa9;
+  border-radius: 2%;
+ padding: 2px;
+
+ margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.user-details:hover{
+  background-color : black ;
+  color : white ;
+  
+}
+.NotFound-Headline {
+ 
+  margin: 20px 40%;
+}
